@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+    <html lang = "en">
+        <head>
+            <meta charset = "utf-8">
+            <meta name = "viewport" content = "width=device-width, initial-scale=1">
+            <title>Welcome</title>
+
+            <style type = "text/css">
+                body   { background-color: pink;
+                         border: 4px solid blue; }
+
+                div    { text-align: center;
+                         margin: 12.5%; }
+
+                span   { text-decoration: underline; }
+            </style>
+        </head>
+
+        <body>
+            <div>
+                <img src = "/cat.png" alt = "Cat" width = "250" height = "250">
+                <h1>Your public IP address is: <span><%= ip %></span></h1>
+                <h1>Your public port number is: <span><%= port %></span></h1>
+            </div>
+        </body>
+    </html>
