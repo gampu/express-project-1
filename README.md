@@ -1,1 +1,1 @@
-# express-project-1
+This is a basic application which uses Express to display the user's public IP and port number used to access the web server. In case of given Heroku deployment, the displayed IP and port are not the ones actually used because Express receives an indirect request from Heroku's proxy servers.
